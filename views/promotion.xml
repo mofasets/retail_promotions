@@ -1,0 +1,41 @@
+<odoo>
+    <data>
+        <record id="model_retail_promotion_view_tree" model="ir.ui.view">
+            <field name="name">model_retail_promotion.view.tree</field>
+            <field name="model">retail.promotion</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name" width="30"/>
+                    <field name="is_active" width="10"/>
+                    <field name="start_date" width="30"/>
+                    <field name="end_date" width="30"/>
+                    <field name="discount" width="30"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="model_retail_promotion_view_form" model="ir.ui.view">
+            <field name="name">model_retail_promotion.view.form</field>
+            <field name="model">retail.promotion</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                                <field name="is_active"/>
+                                <field name="discount" />
+                            </group>
+                            <group>
+                                <field name="start_date"/>
+                                <field name="end_date"/>
+                                <field name="product_ids" widget="many2many_tags"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>    
+    </data>
+</odoo>
+

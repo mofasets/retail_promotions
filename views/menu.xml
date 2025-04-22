@@ -1,0 +1,18 @@
+<odoo>
+    <data>
+        <record model="ir.actions.act_window" id="retail_promotions.action_1">
+            <field name="name">Promociones</field>
+            <field name="res_model">retail.promotion</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+
+        <menuitem
+            id="promotion_retail_menu"
+            name="Promociones"
+            action="retail_promotions.action_1"
+            parent="sale.sale_menu_root"
+            sequence="50"
+        />
+    </data>
+</odoo>
