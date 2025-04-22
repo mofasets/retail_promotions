@@ -1,16 +1,34 @@
-# retail-promotions
+# Retail Promotions
 
-Este modulo busca aplicar descuentos a productos que son vendidos dentro de una empresa de Sector Retail. 
-Esto facilitaria el uso de manejo de descuentos para el personal que se envague de este sector. 
+Este módulo tiene como objetivo aplicar descuentos a productos que se venden dentro de una empresa del sector retail. Facilita el manejo de promociones y descuentos para el personal encargado en este sector.
 
-Este modulo fue desarrollado utilizando Odoo 16, y de acuerdo con las normas de las buenas practicas.
+Este módulo fue desarrollado utilizando **Odoo 16**, siguiendo las normas de buenas prácticas de desarrollo.
 
-## Pasos para ejecutar el modulo
+---
 
-Primero, debes tener instalado Odoo 16 dentro de la maquina. Posteriormente debes crear una carpeta dentro de la carpeta odoo (por convencion, se llamará custom)
+## Pasos para ejecutar el módulo
 
-Se debe recargar el servicio de Odoo 16 en los servicios de Windows, o desde la terminal en Linux. 
+1. **Instalar Odoo 16** en tu máquina.
 
-Se debe dirigir al navegador y acceder al Odoo por el puerto 8069, y se dirigirá al menu "Aplicaciones".
+2. **Crear una carpeta personalizada** dentro de la carpeta principal de Odoo.  
+   Por convención, esta carpeta puede llamarse `custom`.
 
-Se selecciona "Actualizar Lista de Aplicaciones" y luego se busca el modulo, y se selecciona "Instalar".
+3. **Ubicar el módulo** `retail-promotions` dentro de la carpeta `custom`.
+
+4. **Recargar el servicio de Odoo 16**:
+   - En **Windows**: desde los servicios del sistema.
+   - En **Linux**: usando la terminal.
+
+5. **Acceder a Odoo desde el navegador**  
+   Dirígete a `http://localhost:8069` o el puerto correspondiente.
+
+6. **Actualizar la lista de aplicaciones**:
+   - Ir al menú **Aplicaciones**.
+   - Hacer clic en **Actualizar Lista de Aplicaciones**.
+   - Buscar `retail-promotions`.
+   - Seleccionar **Instalar**.
+
+---
+
+¡Y listo! Ya puedes comenzar a usar el módulo para gestionar descuentos de manera eficiente en el entorno retail.
+
