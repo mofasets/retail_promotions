@@ -30,5 +30,4 @@ Este módulo fue desarrollado utilizando **Odoo 16**, siguiendo las normas de bu
 
 ---
 
-¡Y listo! Ya puedes comenzar a usar el módulo para gestionar descuentos de manera eficiente en el entorno retail.
 
